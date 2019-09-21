@@ -57,7 +57,9 @@ msgstr "Database sincronizzato"
 msgid "This is a lightweight process that checks for\n"
 "updates to this database’s schema. In most cases, you should be fine leaving this\n"
 "set to sync hourly."
-msgstr "Questo é un processo leggero che controlla aggiornamenti allo schema del database. Nella maggior parte dei casi, andrá bene impostarlo ad ogni ora"
+msgstr "Questo é un processo leggero che controlla\n"
+"aggiornamenti allo schema del database. Nella maggior parte dei casi,\n"
+"andrá bene impostarlo ad ogni ora."
 
 #: frontend/src/metabase/admin/databases/components/DatabaseSchedulingForm.jsx:147
 #: frontend/src/metabase/admin/databases/components/DatabaseSchedulingForm.jsx:183
@@ -66,14 +68,16 @@ msgstr "Scansione"
 
 #: frontend/src/metabase/admin/databases/components/DatabaseSchedulingForm.jsx:152
 msgid "Scanning for Filter Values"
-msgstr "ricerca di Valori Filtro"
+msgstr "Ricerca di Valori Filtro"
 
 #: frontend/src/metabase/admin/databases/components/DatabaseSchedulingForm.jsx:153
 msgid "Metabase can scan the values present in each\n"
 "field in this database to enable checkbox filters in dashboards and questions. This\n"
 "can be a somewhat resource-intensive process, particularly if you have a very large\n"
 "database."
-msgstr "Metabase puó cercare i valori presenti in ogni campo di questo database per abilitare i checkbox dei filtri nelle dashboard e questions. Questo processo puó essere intensivo, in particolare se hai un database molto grande."
+msgstr "Metabase puó cercare i valori presenti in ogni campo\n"
+"di questo database per abilitare i checkbox dei filtri nelle dashboard e questions.\n"
+"Questo processo puó essere intensivo, in particolare se hai un database molto grande."
 
 #: frontend/src/metabase/admin/databases/components/DatabaseSchedulingForm.jsx:158
 msgid "When should Metabase automatically scan and cache field values?"
@@ -90,7 +94,8 @@ msgstr "Solo quando si aggiunge un nuovo filtro nel widget"
 #: frontend/src/metabase/admin/databases/components/DatabaseSchedulingForm.jsx:198
 msgid "When a user adds a new filter to a dashboard or a SQL question, Metabase will\n"
 "scan the field(s) mapped to that filter in order to show the list of selectable values."
-msgstr "Quando un utente aggiunge un nuovo filtro a una Dashboard o Question, Metabase cercherá nei campi mappati dal filtro per mostrare la lista dei valori selezionabili."
+msgstr "Quando un utente aggiunge un nuovo filtro a una Dashboard o Question, Metabase\n"
+"cercherá nei campi mappati dal filtro per mostrare la lista dei valori selezionabili."
 
 #: frontend/src/metabase/admin/databases/components/DatabaseSchedulingForm.jsx:209
 msgid "Never, I'll do this manually if I need to"
@@ -125,7 +130,7 @@ msgstr "Questo non può essere ripristinato"
 
 #: frontend/src/metabase/admin/databases/components/DeleteDatabaseModal.jsx:65
 msgid "If you're sure, please type"
-msgstr "Se sei sicuro digita"
+msgstr "Se sei sicuro, per favore digita"
 
 #: frontend/src/metabase/admin/databases/components/DeleteDatabaseModal.jsx:52
 #: frontend/src/metabase/admin/databases/components/DeleteDatabaseModal.jsx:65
@@ -224,7 +229,7 @@ msgstr "Azioni"
 
 #: frontend/src/metabase/admin/databases/containers/DatabaseEditApp.jsx:196
 msgid "Sync database schema now"
-msgstr "Sincronizza lo schema database ora"
+msgstr "Sincronizza ora lo schema del database"
 
 #: frontend/src/metabase/admin/databases/containers/DatabaseEditApp.jsx:197
 #: frontend/src/metabase/admin/databases/containers/DatabaseEditApp.jsx:209
@@ -233,7 +238,7 @@ msgstr "Sincronizza lo schema database ora"
 #: frontend/src/metabase/admin/datamodel/containers/TableSettingsApp.jsx:87
 #: frontend/src/metabase/admin/datamodel/containers/TableSettingsApp.jsx:95
 msgid "Starting…"
-msgstr "Avvio..."
+msgstr "Avvio…"
 
 #: frontend/src/metabase/admin/databases/containers/DatabaseEditApp.jsx:198
 msgid "Failed to sync"
@@ -426,7 +431,7 @@ msgstr "Tipo"
 
 #: frontend/src/metabase/admin/datamodel/components/database/MetadataHeader.jsx:104
 msgid "Current database:"
-msgstr "Database corrente:"
+msgstr "Base dati corrente:"
 
 #: frontend/src/metabase/admin/datamodel/components/database/MetadataHeader.jsx:109
 msgid "Show original schema"
@@ -548,7 +553,7 @@ msgstr "creato"
 
 #: frontend/src/metabase/admin/datamodel/components/revisions/Revision.jsx:27
 msgid "reverted to a previous version"
-msgstr "ritornare alla versione precedente"
+msgstr "ritornato alla versione precedente"
 
 #: frontend/src/metabase/admin/datamodel/components/revisions/Revision.jsx:33
 msgid "edited the title"
@@ -556,11 +561,11 @@ msgstr "titolo modificato"
 
 #: frontend/src/metabase/admin/datamodel/components/revisions/Revision.jsx:35
 msgid "edited the description"
-msgstr "Modificato la descrizione"
+msgstr "modificata la descrizione"
 
 #: frontend/src/metabase/admin/datamodel/components/revisions/Revision.jsx:37
 msgid "edited the "
-msgstr "Modificato il␣"
+msgstr "Modificato il "
 
 #: frontend/src/metabase/admin/datamodel/components/revisions/Revision.jsx:40
 msgid "made some changes"
@@ -574,11 +579,11 @@ msgstr "Tu"
 
 #: frontend/src/metabase/admin/datamodel/components/revisions/RevisionHistory.jsx:39
 msgid "Datamodel"
-msgstr "Modello dei dati"
+msgstr "Modello dati"
 
 #: frontend/src/metabase/admin/datamodel/components/revisions/RevisionHistory.jsx:42
 msgid " History"
-msgstr "Storico"
+msgstr " Cronologia"
 
 #: frontend/src/metabase/admin/datamodel/components/revisions/RevisionHistory.jsx:47
 msgid "Revision History for"
@@ -686,12 +691,12 @@ msgstr "Scarta la cache dei valori"
 #: frontend/src/metabase/admin/datamodel/components/UpdateCachedFieldValues.jsx:24
 #: frontend/src/metabase/admin/datamodel/containers/TableSettingsApp.jsx:96
 msgid "Failed to discard values"
-msgstr "Errore durante la cancellazione del valore"
+msgstr "Fallita la cancellazione dei valori"
 
 #: frontend/src/metabase/admin/datamodel/components/UpdateCachedFieldValues.jsx:25
 #: frontend/src/metabase/admin/datamodel/containers/TableSettingsApp.jsx:97
 msgid "Discard triggered!"
-msgstr "Cancellazione avviata"
+msgstr "Cancellazione avviata!"
 
 #: frontend/src/metabase/admin/datamodel/containers/MetadataEditorApp.jsx:116
 msgid "Select any table to see its schema and add or edit metadata."
@@ -723,11 +728,11 @@ msgstr "Modifica la tua Metrica"
 
 #: frontend/src/metabase/admin/datamodel/containers/MetricForm.jsx:104
 msgid "Create Your Metric"
-msgstr "Crea la tua metrica"
+msgstr "Crea la tua Metrica"
 
 #: frontend/src/metabase/admin/datamodel/containers/MetricForm.jsx:108
 msgid "Make changes to your metric and leave an explanatory note."
-msgstr "Cambia le tue metriche e aggiungi una nota esplicativa"
+msgstr "Cambia le tue metriche e aggiungi una nota esplicativa."
 
 #: frontend/src/metabase/admin/datamodel/containers/MetricForm.jsx:107
 msgid "You can create saved metrics to add a named metric option to this table. Saved metrics include the aggregation type, the aggregated field, and optionally any filter you add. As an example, you might use this to create something like the official way of calculating \"Average Price\" for an Orders table."
@@ -735,7 +740,7 @@ msgstr "È possibile creare metriche salvate per aggiungere un'opzione metrica c
 
 #: frontend/src/metabase/admin/datamodel/containers/MetricForm.jsx:140
 msgid "Result: "
-msgstr "Risultato:"
+msgstr "Risultato: "
 
 #: frontend/src/metabase/admin/datamodel/containers/MetricForm.jsx:149
 msgid "Name Your Metric"
@@ -756,7 +761,7 @@ msgstr "Descrivi la tua Metrica"
 
 #: frontend/src/metabase/admin/datamodel/containers/MetricForm.jsx:159
 msgid "Give your metric a description to help others understand what it's about."
-msgstr "Dai alla tua Metrica una descrizione per aiutare gli altri a capire di cosa tratta"
+msgstr "Dai alla tua Metrica una descrizione per aiutare gli altri a capire di cosa tratta."
 
 #: frontend/src/metabase/admin/datamodel/containers/MetricForm.jsx:163
 msgid "This is a good place to be more specific about less obvious metric rules"
@@ -765,7 +770,7 @@ msgstr "Questo é un buon posto per essere piú specifici riguardo le metriche m
 #: frontend/src/metabase/admin/datamodel/containers/MetricForm.jsx:167
 #: frontend/src/metabase/admin/datamodel/containers/SegmentForm.jsx:167
 msgid "Reason For Changes"
-msgstr "Motivo per le modifiche"
+msgstr "Motivo delle modifiche"
 
 #: frontend/src/metabase/admin/datamodel/containers/MetricForm.jsx:169
 #: frontend/src/metabase/admin/datamodel/containers/SegmentForm.jsx:169
@@ -778,7 +783,7 @@ msgstr "Questo verrá mostrato nello storico revisioni di questa metrica per aiu
 
 #: frontend/src/metabase/admin/datamodel/containers/SegmentForm.jsx:47
 msgid "At least one filter is required"
-msgstr "Al meno uno filtro è obbligatorio"
+msgstr "Almeno uno filtro è obbligatorio"
 
 #: frontend/src/metabase/admin/datamodel/containers/SegmentForm.jsx:106
 msgid "Edit Your Segment"
@@ -853,7 +858,7 @@ msgstr "Indirizzo email formattato non correttamente"
 #: frontend/src/metabase/setup/components/UserStep.jsx:186
 #: frontend/src/metabase/user/components/UpdateUserDetails.jsx:100
 msgid "First name"
-msgstr "Primo nome"
+msgstr "Nome"
 
 #: frontend/src/metabase/entities/users.js:42
 #: frontend/src/metabase/setup/components/UserStep.jsx:203
@@ -1009,7 +1014,7 @@ msgstr "Modifica dettagli"
 
 #: frontend/src/metabase/admin/people/components/UserActionsSelect.jsx:85
 msgid "Re-send Invite"
-msgstr "Rimanda invito"
+msgstr "Rimanda Invito"
 
 #: frontend/src/metabase/admin/people/components/UserActionsSelect.jsx:90
 msgid "Reset Password"
@@ -1032,7 +1037,7 @@ msgstr "Chi vuoi aggiungere?"
 
 #: frontend/src/metabase/admin/people/containers/PeopleListingApp.jsx:207
 msgid "Edit {0}'s details"
-msgstr "Modifica i dettagli di  {0}"
+msgstr "Modifica i dettagli di {0}"
 
 #: frontend/src/metabase/admin/people/containers/UserSuccessModal.jsx:40
 msgid "{0} has been added"
@@ -1069,7 +1074,7 @@ msgstr "Ok"
 
 #: frontend/src/metabase/admin/people/containers/PeopleListingApp.jsx:289
 msgid "Any previous email invites they have will no longer work."
-msgstr " Qualsiasi email precedente inviti non funzionerà più."
+msgstr "Qualsiasi email precedente inviti non funzionerà più."
 
 #: frontend/src/metabase/admin/people/containers/UserActivationModal.jsx:31
 msgid "Deactivate {0}?"
@@ -1124,7 +1129,7 @@ msgstr "Attivo"
 #: frontend/src/metabase/admin/people/containers/PeopleListingApp.jsx:103
 #: frontend/src/metabase/admin/people/containers/PeopleListingApp.jsx:128
 msgid "Deactivated"
-msgstr "Deattivato"
+msgstr "Disattivato"
 
 #: frontend/src/metabase/admin/people/containers/PeopleListingApp.jsx:116
 msgid "Add someone"
@@ -1136,7 +1141,7 @@ msgstr "Ultimo Login"
 
 #: frontend/src/metabase/admin/people/containers/PeopleListingApp.jsx:156
 msgid "Signed up via Google"
-msgstr "Iscritto  tramite  Google"
+msgstr "Iscritto tramite  Google"
 
 #: frontend/src/metabase/admin/people/containers/PeopleListingApp.jsx:161
 msgid "Signed up via LDAP"
@@ -1163,7 +1168,7 @@ msgstr " sarà "
 
 #: frontend/src/metabase/admin/permissions/components/PermissionsConfirm.jsx:52
 msgid "given access to"
-msgstr "Accesso permesso a"
+msgstr "Accesso consentito a"
 
 #: frontend/src/metabase/admin/permissions/components/PermissionsConfirm.jsx:57
 #: frontend/src/metabase/query_builder/components/view/QuestionDescription.jsx:26
@@ -1211,7 +1216,7 @@ msgstr "Nessun cambiamento ai permessi sará fatto"
 
 #: frontend/src/metabase/admin/permissions/components/PermissionsEditor.jsx:65
 msgid "You've made changes to permissions."
-msgstr "Hai cambiato i permessi"
+msgstr "Hai modificato i permessi."
 
 #: frontend/src/metabase/admin/permissions/containers/CollectionPermissionsModal.jsx:55
 msgid "Permissions for this collection"
@@ -7980,7 +7985,7 @@ msgstr "Nessuna funzione -init-driver trovata per \"{0}\""
 
 #: src/metabase/driver/common.clj
 msgid "Unable to parse date string ''{0}'' for database engine ''{1}''"
-msgstr "Impossibile adattare la stringa data \"{0}\" per il sistema base di dati \"{1}\""
+msgstr "Impossibile adattare la stringa data \"{0}\" per il sistema database \"{1}\""
 
 #. all-NULL columns in DBs like Mongo w/o explicit types
 #: src/metabase/driver/common.clj
@@ -8340,7 +8345,7 @@ msgstr "Metabase può tentare di trasformare i nomi della tua tabella e dei camp
 
 #: src/metabase/models/humanization.clj
 msgid "This doesn’t work all that well if the names are in a language other than English, however."
-msgstr "In ogni caso, non è garantito che funzioni bene se i nomi non sono in inglese."
+msgstr "In ogni caso, non è garantito che funzioni bene se i nomi non sono in Inglese."
 
 #: src/metabase/models/humanization.clj
 msgid "Do you want us to take a guess?"
@@ -8352,7 +8357,7 @@ msgstr "Non puoi creare o revocare permessi per il gruppo `Admin`"
 
 #: src/metabase/models/permissions.clj
 msgid "Invalid permissions object path: ''{0}''."
-msgstr "permessi non validi per il percorso: \"{0}\""
+msgstr "Permessi non validi per il percorso: \"{0}\""
 
 #: src/metabase/models/permissions.clj
 msgid "You cannot update a permissions entry!"
@@ -8409,11 +8414,11 @@ msgstr "Allarme non valido: non ha una Carta associata."
 
 #: src/metabase/models/pulse.clj
 msgid "value must be a map with the keys `{0}`, `{1}`, and `{2}`."
-msgstr "Il valore deve essere una mappa con le chiavi  `{0}`, `{1}` e `{2}`."
+msgstr "il valore deve essere una mappa con le chiavi `{0}`, `{1}` e `{2}`."
 
 #: src/metabase/models/pulse.clj
 msgid "value must be a map with the following keys `({0})`"
-msgstr "Il valore deve essere una mappa con le seguenti chiavi  `{0}`"
+msgstr "Il valore deve essere una mappa con le seguenti chiavi `{0}`"
 
 #: src/metabase/models/query/permissions.clj
 msgid "Error calculating permissions for query: {0}"
@@ -8490,7 +8495,7 @@ msgstr "Con Java 9 o superiore, Metabase non può aggiungerli automaticamente ne
 
 #: src/metabase/plugins.clj
 msgid "Instead, you should include them at launch with the -cp option. For example:"
-msgstr "Invece, dovresti includerli all'avvio con l'opzione -op. Per esempio:"
+msgstr "Invece, dovresti includerli all'avvio con l'opzione -cp. Per esempio:"
 
 #: src/metabase/plugins.clj
 msgid "See https://metabase.com/docs/latest/operations-guide/start.html#java-versions for more details."
@@ -12666,7 +12671,7 @@ msgstr "Seleziona la metrica che vorresti vedere"
 
 #: frontend/src/metabase/query_builder/components/view/sidebars/ChartSettingsSidebar.jsx:21
 msgid "{0} options"
-msgstr "{0} opzionj"
+msgstr "{0} opzioni"
 
 #: frontend/src/metabase/query_builder/components/view/sidebars/ChartTypeSidebar.jsx:44
 msgid "Choose a visualization"
@@ -12738,7 +12743,7 @@ msgstr "Full outer join"
 
 #: src/metabase/api/card.clj
 msgid "Card results metadata passed in to API is MISSING. Running query to fetch correct metadata."
-msgstr "I metadati dei risultati delle carte trasmessi all'API sono MANCANTI.  Esecuzione della query per recuperare i metadati corretti."
+msgstr "I metadati dei risultati delle carte trasmessi all'API sono MANCANTI. Esecuzione della query per recuperare i metadati corretti."
 
 #: src/metabase/api/session.clj
 msgid "Problem connecting to LDAP server, will fall back to local authentication"
@@ -12746,7 +12751,7 @@ msgstr "Problema di connessione al server LDAP, si ritorna all'autenticazione lo
 
 #: src/metabase/api/setup.clj
 msgid "Cannot create Database: cannot find driver {0}."
-msgstr "Impossibile creare il Database: impossibile trovare il driver {0}."
+msgstr "Impossibile creare il Database: driver non trovato {0}."
 
 #: src/metabase/api/tiles.clj
 msgid "Query failed"
@@ -12794,7 +12799,7 @@ msgstr "Potrebbe essere necessario aggiungere \"trustServerCertificate = true\" 
 
 #: src/metabase/driver/sql/util.clj
 msgid "Don't know how to alias {0}, expected an Identifer."
-msgstr ""
+msgstr "Non so come fare alias {0}, atteso un Identificatore."
 
 #: src/metabase/driver/sql_jdbc/execute.clj
 msgid "Client closed connection, canceling query"
@@ -12832,7 +12837,7 @@ msgstr ""
 
 #: src/metabase/models/task_history.clj src/metabase/sync/util.clj
 msgid "Error saving task history"
-msgstr ""
+msgstr "Errore nel salvataggio dell'elenco delle attività"
 
 #: src/metabase/plugins.clj
 msgid "spark-deps.jar is no longer needed by Metabase 0.32.0+. You can delete it from the plugins directory."
@@ -12852,7 +12857,7 @@ msgstr "Url non valido: {0}"
 
 #: src/metabase/public_settings.clj
 msgid "site-url is invalid; returning nil for now. Will be reset on next request."
-msgstr "site-url non è valido;  restituendo zero per ora.  Sarà ripristinato alla prossima richiesta."
+msgstr "site-url non è valido; restituendo zero per ora.  Sarà ripristinato alla prossima richiesta."
 
 #: src/metabase/pulse/render/body.clj
 msgid "More results have been included as a file attachment"
